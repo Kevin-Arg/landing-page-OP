@@ -1,0 +1,52 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.mainsection{
+    background-color: #1f2937;
+    height: 80vh;
+    padding: 20px 200px 0px 200px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: inherit;
+}
+
+.header-right{
+    display: flex;    
+    gap: 20px;
+}
+
+.header-right, p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header-left{
+    font-size: 24px;
+    color: #f9faf4;
+    font-weight: bolder;
+}
+
+.heromain > h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf4;
+
+}
+
+.heromain > p{
+
+}
+
